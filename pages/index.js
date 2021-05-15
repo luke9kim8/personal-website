@@ -13,6 +13,9 @@ export default function Home() {
       <div className="titlecard">
         <h1 className="title">Hi I'm Luke</h1>
       </div>
+      <div>
+        
+      </div>
 
     
     </div>

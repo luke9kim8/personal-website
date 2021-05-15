@@ -4,16 +4,17 @@
 }
 
 .layout {
-  margin-left: 25px;
   margin-right: 25px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   height: 100vh;
+
 }
 
 .nav {
-  width: 100%;
+  width: 300px;
+  position: fixed;
+  height: 100vh;
 }
 
 .navButtonGroup {
@@ -24,15 +25,19 @@
   margin-top: 20px;
 }
 
+
 .navButton {
   font-size: 24px;
   padding-left: 30px;
 }
 
 .header {
+  padding-top: 300px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-right:10px;
+  
 }
 
 .menu {
@@ -40,6 +45,22 @@
 }
 .children {
   padding: 15px;
+  width: 100vw
+}
+.contentSpacer {
+  min-width: 300px;
+  background-color: red;
+}
+.contentPage {
+  display: flex;
+  width: 100vw;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 600px) {

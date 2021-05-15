@@ -15,12 +15,12 @@
   margin-top: 10px;
 }
 
-.blog-container {
+/* .blog-container {
   display: flex;
   flex-direction: column;
   text-align: left;
   width: 75vw;
-}
+} */
 .date {
   font-style: italic;
   font-size: 16px;
