@@ -59,13 +59,7 @@ export default function Post({blogpost}) {
 
       <h2 className={styles.title}>{title}</h2>
       <PrettyDate datestring={created} style={{fontStyle: "italic", marginTop: '0px'}}/>
-      <Image
-        src={`https:${coverImage.fields.file.url}`}
-        layout="responsive"
-        width="300px"
-        height="200px"
-        className={styles.coverImage}
-      />
+      
       <div>{documentToReactComponents(blogpost.fields.blogContent, RICH_TEXT_OPTIONS)}</div>
     </div>
   )
